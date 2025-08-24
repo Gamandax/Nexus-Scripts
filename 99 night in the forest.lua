@@ -1,10 +1,10 @@
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 local Window = Rayfield:CreateWindow({
-   Name = "By Robanik [99 night in the forest]",
+   Name = "By Shizoscript [99 night in the forest]",
    Icon = 0, -- Icon in Topbar. Can use Lucide Icons (string) or Roblox Image (number). 0 to use no icon (default).
    LoadingTitle = "99 night in the forest",
-   LoadingSubtitle = "by robanik",
+   LoadingSubtitle = "by Shizoscript",
    ShowText = "Open/close", -- for mobile users to unhide rayfield, change if you'd like
    Theme = "Ocean", -- Check https://docs.sirius.menu/rayfield/configuration/themes
 
@@ -21,7 +21,7 @@ local Window = Rayfield:CreateWindow({
 
    Discord = {
       Enabled = false, -- Prompt the user to join your Discord server if their executor supports it
-      Invite = "https://discord.gg/JjEjpxwd", -- The Discord invite code, do not include discord.gg/. E.g. discord.gg/ ABCD would be ABCD
+      Invite = "https://discord.gg/JjEjpxwsd", -- The Discord invite code, do not include discord.gg/. E.g. discord.gg/ ABCD would be ABCD
       RememberJoins = true -- Set this to false to make them join the discord every time they load it up
    },
 
@@ -56,7 +56,7 @@ fakeHumanoid.Parent = character
 })
 
 local Button = Tab:CreateButton({
-   Name = "other god mode (beta)",
+   Name = "other god mode (beta work or not?)",
    Callback = function()
    local player = game.Players.LocalPlayer
 local humanoid = player.Character:WaitForChild("Humanoid")
@@ -151,7 +151,7 @@ end)
    end,
 })
 
-local Tab = Window:CreateTab("kill animals", "rewind")
+local Tab = Window:CreateTab("kill farm animals", "rewind")
 local Section = Tab:CreateSection("kill animals")
 
 local Button = Tab:CreateButton({
@@ -844,7 +844,7 @@ end)
    end,
 })
 
-local Tab = Window:CreateTab("credit", "rewind")
+local Tab = Window:CreateTab("credit", "XyZ")
 local Section = Tab:CreateSection("credits")
 
 local Button = Tab:CreateButton({
@@ -855,7 +855,7 @@ local Button = Tab:CreateButton({
 })
 
 local Button = Tab:CreateButton({
-   Name = "SOMBRITA GAMES = RANDOM_BEAST5",
+   Name = "Zxy GAMES = Okay",
    Callback = function()
    -- The function that takes place when the button is pressed
    end,
