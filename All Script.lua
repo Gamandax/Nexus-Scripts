@@ -128,6 +128,10 @@ auxTab:Button("Get Big Simulator", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Gamandax/Nexus-Scripts/refs/heads/main/%5B2x%F0%9F%92%AA%5D%20Get%20Big%20Simulator.lua"))()
 end)
 
+auxTab:Button("Clone Chaos", function()
+    loadstring(game:HttpGet("https://zy-x.vercel.app/api/raw/jtoojgurt9"))()
+end)
+
 auxTab:Button("Find The Cans [120]", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Gamandax/Nexus-Scripts/refs/heads/main/%5B120%5D%20Find%20The%20Cans.lua"))()
 end)
